@@ -1,0 +1,266 @@
+2025-04-17 01:00:03,563 - Scheduler started
+2025-04-17 01:00:03,563 - Starting patent scraping process...
+2025-04-17 01:00:05,101 - 2025-04-17 01:00:05,101 - INFO - Starting patent link collection process
+2025-04-17 01:00:05,101 - 2025-04-17 01:00:05,101 - INFO - Scraping patents from 2025-04-02 to 2025-04-12
+2025-04-17 01:00:05,101 - 2025-04-17 01:00:05,101 - INFO - Initializing Chrome driver
+2025-04-17 01:00:05,101 - 2025-04-17 01:00:05,101 - INFO - ====== WebDriver manager ======
+2025-04-17 01:00:05,866 - 2025-04-17 01:00:05,866 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 01:00:06,033 - 2025-04-17 01:00:06,033 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 01:00:06,200 - 2025-04-17 01:00:06,200 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-17 01:00:07,113 - 2025-04-17 01:00:07,110 - INFO - Found 23510 existing patents in patent_urls.txt
+2025-04-17 01:00:07,113 - 2025-04-17 01:00:07,110 - INFO - Fetching page 1
+2025-04-17 01:00:25,664 - 2025-04-17 01:00:25,663 - INFO - No more results found after page 1
+2025-04-17 01:00:28,749 - 2025-04-17 01:00:28,749 - INFO - Scraping completed or interrupted.
+2025-04-17 01:00:28,749 - 2025-04-17 01:00:28,749 - INFO - Total new patents found: 0
+2025-04-17 01:00:28,749 - 2025-04-17 01:00:28,749 - INFO - Total unique patents in patent_urls.txt: 23510
+2025-04-17 01:00:51,504 - 2025-04-17 01:00:51,504 - INFO - Use pytorch device_name: cuda
+2025-04-17 01:00:51,505 - 2025-04-17 01:00:51,504 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-17 01:01:00,876 - 2025-04-17 01:01:00,874 - ERROR - Error initializing MFS directory: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /api/v0/files/mkdir?arg=%2Fpatents&parents=true (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BF329C63D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-17 01:01:00,897 - 2025-04-17 01:01:00,897 - INFO - Found 11 patent URLs to process from patent_urls.txt
+2025-04-17 01:01:00,899 - 2025-04-17 01:01:00,897 - INFO -
+2025-04-17 01:01:00,899 - Processing URL: https://patents.google.com/patent/US11890029
+2025-04-17 01:01:00,899 - --- Logging error ---
+2025-04-17 01:01:00,899 - Traceback (most recent call last):
+2025-04-17 01:01:00,899 - File "C:\Users\DELL\anaconda3\envs\browser-use\Lib\logging\__init__.py", line 1110, in emit
+2025-04-17 01:01:00,899 - msg = self.format(record)
+2025-04-17 01:01:00,899 - ^^^^^^^^^^^^^^^^^^^
+2025-04-17 01:01:00,899 - File "C:\Users\DELL\anaconda3\envs\browser-use\Lib\logging\__init__.py", line 953, in format
+2025-04-17 01:01:00,899 - return fmt.format(record)
+2025-04-17 01:01:00,899 - ^^^^^^^^^^^^^^^^^^
+2025-04-17 01:01:00,904 - File "C:\Users\DELL\anaconda3\envs\browser-use\Lib\logging\__init__.py", line 687, in format
+2025-04-17 01:01:00,904 - record.message = record.getMessage()
+2025-04-17 01:01:00,904 - ^^^^^^^^^^^^^^^^^^^
+2025-04-17 01:01:00,904 - File "C:\Users\DELL\anaconda3\envs\browser-use\Lib\logging\__init__.py", line 377, in getMessage
+2025-04-17 01:01:00,904 - msg = msg % self.args
+2025-04-17 01:01:00,905 - ~~~~^~~~~~~~~~~
+2025-04-17 01:01:00,905 - TypeError: not all arguments converted during string formatting
+2025-04-17 01:01:00,905 - Call stack:
+2025-04-17 01:01:00,906 - File "D:\PaulWalker\PaulWalker\working.py", line 323, in <module>
+2025-04-17 01:01:00,906 - main()
+2025-04-17 01:01:00,906 - File "D:\PaulWalker\PaulWalker\working.py", line 254, in main
+2025-04-17 01:01:00,906 - logging.info("PNO", patent_no)
+2025-04-17 01:01:00,906 - Message: 'PNO'
+2025-04-17 01:01:00,907 - Arguments: ('US11890029',)
+2025-04-17 01:01:00,907 - --- Logging error ---
+2025-04-17 01:01:00,907 - Traceback (most recent call last):
+2025-04-17 01:01:00,907 - File "C:\Users\DELL\anaconda3\envs\browser-use\Lib\logging\__init__.py", line 1110, in emit
+2025-04-17 01:01:00,908 - msg = self.format(record)
+2025-04-17 01:01:00,908 - ^^^^^^^^^^^^^^^^^^^
+2025-04-17 01:01:00,908 - File "C:\Users\DELL\anaconda3\envs\browser-use\Lib\logging\__init__.py", line 953, in format
+2025-04-17 01:01:00,909 - return fmt.format(record)
+2025-04-17 01:01:00,909 - ^^^^^^^^^^^^^^^^^^
+2025-04-17 01:01:00,909 - File "C:\Users\DELL\anaconda3\envs\browser-use\Lib\logging\__init__.py", line 687, in format
+2025-04-17 01:01:00,909 - record.message = record.getMessage()
+2025-04-17 01:01:00,909 - ^^^^^^^^^^^^^^^^^^^
+2025-04-17 01:01:00,910 - File "C:\Users\DELL\anaconda3\envs\browser-use\Lib\logging\__init__.py", line 377, in getMessage
+2025-04-17 01:01:00,910 - msg = msg % self.args
+2025-04-17 01:01:00,910 - ~~~~^~~~~~~~~~~
+2025-04-17 01:01:00,910 - TypeError: not all arguments converted during string formatting
+2025-04-17 01:01:00,910 - Call stack:
+2025-04-17 01:01:00,910 - File "D:\PaulWalker\PaulWalker\working.py", line 323, in <module>
+2025-04-17 01:01:00,911 - main()
+2025-04-17 01:01:00,911 - File "D:\PaulWalker\PaulWalker\working.py", line 254, in main
+2025-04-17 01:01:00,911 - logging.info("PNO", patent_no)
+2025-04-17 01:01:00,911 - Message: 'PNO'
+2025-04-17 01:01:00,911 - Arguments: ('US11890029',)
+2025-04-17 01:01:54,510 - Scheduler started
+2025-04-17 01:01:54,515 - Starting patent scraping process...
+2025-04-17 01:01:55,356 - 2025-04-17 01:01:55,356 - INFO - Starting patent link collection process
+2025-04-17 01:01:55,357 - 2025-04-17 01:01:55,356 - INFO - Scraping patents from 2025-04-02 to 2025-04-12
+2025-04-17 01:01:55,357 - 2025-04-17 01:01:55,356 - INFO - Initializing Chrome driver
+2025-04-17 01:01:55,357 - 2025-04-17 01:01:55,357 - INFO - ====== WebDriver manager ======
+2025-04-17 01:01:56,371 - 2025-04-17 01:01:56,371 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 01:01:56,501 - 2025-04-17 01:01:56,501 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 01:01:56,642 - 2025-04-17 01:01:56,642 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-17 01:01:57,579 - 2025-04-17 01:01:57,579 - INFO - Found 23510 existing patents in patent_urls.txt
+2025-04-17 01:01:57,579 - 2025-04-17 01:01:57,579 - INFO - Fetching page 1
+2025-04-17 01:02:15,942 - 2025-04-17 01:02:15,942 - INFO - No more results found after page 1
+2025-04-17 01:02:19,017 - 2025-04-17 01:02:19,017 - INFO - Scraping completed or interrupted.
+2025-04-17 01:02:19,017 - 2025-04-17 01:02:19,017 - INFO - Total new patents found: 0
+2025-04-17 01:02:19,017 - 2025-04-17 01:02:19,017 - INFO - Total unique patents in patent_urls.txt: 23510
+2025-04-17 01:02:34,316 - 2025-04-17 01:02:34,316 - INFO - Use pytorch device_name: cuda
+2025-04-17 01:02:34,316 - 2025-04-17 01:02:34,316 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-17 01:02:40,254 - 2025-04-17 01:02:40,254 - ERROR - Error initializing MFS directory: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /api/v0/files/mkdir?arg=%2Fpatents&parents=true (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015A00252310>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-17 01:02:40,254 - 2025-04-17 01:02:40,254 - INFO - Found 11 patent URLs to process from patent_urls.txt
+2025-04-17 01:02:40,254 - 2025-04-17 01:02:40,254 - INFO -
+2025-04-17 01:02:40,258 - Processing URL: https://patents.google.com/patent/US11890029
+2025-04-17 01:02:40,258 - 2025-04-17 01:02:40,254 - INFO - Processing patent number: US11890029
+2025-04-17 01:04:07,502 - 2025-04-17 01:04:07,502 - INFO - Saved JSON file locally: patent_json/US11890029.json
+2025-04-17 01:04:07,525 - 2025-04-17 01:04:07,525 - INFO - Generating embeddings using model: all-MiniLM-L6-v2
+2025-04-17 01:04:07,637 - Error setting up IPFS directory structure
+2025-04-17 01:04:07,653 - 
+2025-04-17 01:04:11,181 - Batches:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-04-17 01:04:11,181 - Batches: 100%|##########| 1/1 [00:03<00:00,  3.53s/it]
+2025-04-17 01:04:11,181 - Batches: 100%|##########| 1/1 [00:03<00:00,  3.53s/it]
+2025-04-17 01:04:11,181 - 2025-04-17 01:04:11,181 - INFO - Generated embedding
+2025-04-17 01:04:11,196 - 2025-04-17 01:04:11,196 - INFO - Storing data in ChromaDB collection: patents_collection
+2025-04-17 01:04:11,219 - 2025-04-17 01:04:11,219 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-04-17 01:04:11,884 - 2025-04-17 01:04:11,884 - INFO - Added document with ID 905fc08b-71d6-40b2-9337-39f01f9d7990 to ChromaDB.
+2025-04-17 01:04:11,900 - 2025-04-17 01:04:11,884 - INFO - Successfully stored in ChromaDB with ID: 905fc08b-71d6-40b2-9337-39f01f9d7990
+2025-04-17 01:04:11,900 - 2025-04-17 01:04:11,884 - INFO - Uploading patent US11890029 to IPFS...
+2025-04-17 01:04:13,930 - 2025-04-17 01:04:13,930 - ERROR - Error in save_and_upload: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /api/v0/add (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015A263D9610>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-17 01:04:13,930 - 2025-04-17 01:04:13,930 - INFO - Failed to upload patent US11890029 to IPFS
+2025-04-17 01:04:15,931 - 2025-04-17 01:04:15,931 - INFO -
+2025-04-17 01:04:15,933 - Processing URL: https://patents.google.com/patent/US11986009
+2025-04-17 01:04:15,933 - 2025-04-17 01:04:15,931 - INFO - Processing patent number: US11986009
+2025-04-17 01:04:22,721 - 2025-04-17 01:04:22,705 - INFO - Saved JSON file locally: patent_json/US11986009.json
+2025-04-17 01:04:22,721 - 2025-04-17 01:04:22,721 - INFO - Generating embeddings using model: all-MiniLM-L6-v2
+2025-04-17 01:04:22,757 - Upload error: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /api/v0/add (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015A263D9610>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-17 01:04:22,757 - 
+2025-04-17 01:04:23,436 - Batches:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-04-17 01:04:23,437 - Batches: 100%|##########| 1/1 [00:00<00:00,  1.47it/s]
+2025-04-17 01:04:23,437 - Batches: 100%|##########| 1/1 [00:00<00:00,  1.47it/s]
+2025-04-17 01:04:23,437 - 2025-04-17 01:04:23,436 - INFO - Generated embedding
+2025-04-17 01:04:23,438 - 2025-04-17 01:04:23,437 - INFO - Storing data in ChromaDB collection: patents_collection
+2025-04-17 01:04:23,579 - 2025-04-17 01:04:23,579 - INFO - Added document with ID a116717a-e7ec-4376-afbb-b53dd589815d to ChromaDB.
+2025-04-17 01:04:23,579 - 2025-04-17 01:04:23,579 - INFO - Successfully stored in ChromaDB with ID: a116717a-e7ec-4376-afbb-b53dd589815d
+2025-04-17 01:04:23,594 - 2025-04-17 01:04:23,579 - INFO - Uploading patent US11986009 to IPFS...
+2025-04-17 01:04:25,618 - 2025-04-17 01:04:25,618 - ERROR - Error in save_and_upload: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /api/v0/add (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015A0742D010>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-17 01:04:25,618 - 2025-04-17 01:04:25,618 - INFO - Failed to upload patent US11986009 to IPFS
+2025-04-17 01:04:27,620 - 2025-04-17 01:04:27,619 - INFO -
+2025-04-17 01:04:27,620 - Processing URL: https://patents.google.com/patent/US12146853
+2025-04-17 01:04:27,620 - 2025-04-17 01:04:27,620 - INFO - Processing patent number: US12146853
+2025-04-17 01:04:46,015 - 2025-04-17 01:04:46,015 - INFO - Saved JSON file locally: patent_json/US12146853.json
+2025-04-17 01:04:46,021 - 2025-04-17 01:04:46,021 - INFO - Generating embeddings using model: all-MiniLM-L6-v2
+2025-04-17 01:04:46,102 - Upload error: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /api/v0/add (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015A0742D010>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-17 01:04:46,102 - 
+2025-04-17 01:04:47,729 - Batches:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-04-17 01:04:47,730 - Batches: 100%|##########| 1/1 [00:01<00:00,  1.63s/it]
+2025-04-17 01:04:47,730 - Batches: 100%|##########| 1/1 [00:01<00:00,  1.63s/it]
+2025-04-17 01:04:47,730 - 2025-04-17 01:04:47,729 - INFO - Generated embedding
+2025-04-17 01:04:47,730 - 2025-04-17 01:04:47,730 - INFO - Storing data in ChromaDB collection: patents_collection
+2025-04-17 01:04:48,148 - 2025-04-17 01:04:48,148 - INFO - Added document with ID e8584c32-6bef-4e5d-88e9-cd217ab7bdf0 to ChromaDB.
+2025-04-17 01:04:48,148 - 2025-04-17 01:04:48,148 - INFO - Successfully stored in ChromaDB with ID: e8584c32-6bef-4e5d-88e9-cd217ab7bdf0
+2025-04-17 01:04:48,148 - 2025-04-17 01:04:48,148 - INFO - Uploading patent US12146853 to IPFS...
+2025-04-17 01:04:48,322 - 2025-04-17 01:04:48,322 - INFO - Successfully verified IPFS hash: QmVffomyFVHTuD5a9ntAVzNVSKHZWX3PJUuYcVKBJMyWV9
+2025-04-17 01:04:48,326 - 2025-04-17 01:04:48,326 - INFO - Successfully processed patent US12146853
+2025-04-17 01:04:48,326 - 2025-04-17 01:04:48,326 - INFO - IPFS Hash: QmVffomyFVHTuD5a9ntAVzNVSKHZWX3PJUuYcVKBJMyWV9
+2025-04-17 01:04:48,326 - 2025-04-17 01:04:48,326 - INFO - Local JSON file saved in: patent_json/US12146853.json
+2025-04-17 01:04:50,327 - 2025-04-17 01:04:50,327 - INFO -
+2025-04-17 01:04:50,327 - Processing URL: https://patents.google.com/patent/US12193671
+2025-04-17 01:04:50,327 - 2025-04-17 01:04:50,327 - INFO - Processing patent number: US12193671
+2025-04-17 01:06:21,511 - 2025-04-17 01:06:21,511 - INFO - Saved JSON file locally: patent_json/US12193671.json
+2025-04-17 01:06:21,533 - 2025-04-17 01:06:21,533 - INFO - Generating embeddings using model: all-MiniLM-L6-v2
+2025-04-17 01:06:21,628 - Trying alternative upload method...
+2025-04-17 01:06:21,628 - Successfully added using alternative method
+2025-04-17 01:06:21,628 - Verified file in MFS: /patents/US12146853.json
+2025-04-17 01:06:21,628 - File details: {'Hash': 'QmVffomyFVHTuD5a9ntAVzNVSKHZWX3PJUuYcVKBJMyWV9', 'Size': 1481438, 'CumulativeSize': 1481818, 'Blocks': 6, 'Type': 'file'}
+2025-04-17 01:06:21,628 - 
+2025-04-17 01:06:21,628 - === IPFS File Access Information ===
+2025-04-17 01:06:21,628 - File successfully uploaded to IPFS with hash: QmVffomyFVHTuD5a9ntAVzNVSKHZWX3PJUuYcVKBJMyWV9
+2025-04-17 01:06:21,628 - 
+2025-04-17 01:06:21,628 - You can access your file through any of these methods:
+2025-04-17 01:06:21,628 - 1. Local Gateway: http://127.0.0.1:8080/ipfs/QmVffomyFVHTuD5a9ntAVzNVSKHZWX3PJUuYcVKBJMyWV9
+2025-04-17 01:06:21,628 - 2. Direct Gateway: http://localhost:8080/ipfs/QmVffomyFVHTuD5a9ntAVzNVSKHZWX3PJUuYcVKBJMyWV9
+2025-04-17 01:06:21,628 - 3. Command Line: ipfs cat /ipfs/QmVffomyFVHTuD5a9ntAVzNVSKHZWX3PJUuYcVKBJMyWV9
+2025-04-17 01:06:21,628 - 4. WebUI: Files/patents/US12146853.json
+2025-04-17 01:06:21,628 - File is visible in WebUI
+2025-04-17 01:06:21,628 - 
+2025-04-17 01:06:23,805 - Batches:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-04-17 01:06:23,805 - Batches: 100%|##########| 1/1 [00:02<00:00,  2.18s/it]
+2025-04-17 01:06:23,805 - Batches: 100%|##########| 1/1 [00:02<00:00,  2.18s/it]
+2025-04-17 01:06:23,805 - 2025-04-17 01:06:23,805 - INFO - Generated embedding
+2025-04-17 01:06:23,821 - 2025-04-17 01:06:23,821 - INFO - Storing data in ChromaDB collection: patents_collection
+2025-04-17 01:06:24,161 - 2025-04-17 01:06:24,161 - INFO - Added document with ID 0a865aa6-d995-46b6-9b53-e3dbdd5bb6bc to ChromaDB.
+2025-04-17 01:06:24,161 - 2025-04-17 01:06:24,161 - INFO - Successfully stored in ChromaDB with ID: 0a865aa6-d995-46b6-9b53-e3dbdd5bb6bc
+2025-04-17 01:06:24,161 - 2025-04-17 01:06:24,161 - INFO - Uploading patent US12193671 to IPFS...
+2025-04-17 01:06:24,357 - 2025-04-17 01:06:24,357 - INFO - Successfully verified IPFS hash: Qmc5891sBr2sDiHzB1mHFqKVNxEewpwJuaou1KpcxzBFnv
+2025-04-17 01:06:24,361 - 2025-04-17 01:06:24,361 - INFO - Successfully processed patent US12193671
+2025-04-17 01:06:24,361 - 2025-04-17 01:06:24,361 - INFO - IPFS Hash: Qmc5891sBr2sDiHzB1mHFqKVNxEewpwJuaou1KpcxzBFnv
+2025-04-17 01:06:24,362 - 2025-04-17 01:06:24,361 - INFO - Local JSON file saved in: patent_json/US12193671.json
+2025-04-17 01:06:26,362 - 2025-04-17 01:06:26,362 - INFO -
+2025-04-17 01:06:26,362 - Processing URL: https://patents.google.com/patent/US12177097
+2025-04-17 01:06:26,362 - 2025-04-17 01:06:26,362 - INFO - Processing patent number: US12177097
+2025-04-17 01:06:36,682 - 2025-04-17 01:06:36,682 - INFO - Saved JSON file locally: patent_json/US12177097.json
+2025-04-17 01:06:36,682 - 2025-04-17 01:06:36,682 - INFO - Generating embeddings using model: all-MiniLM-L6-v2
+2025-04-17 01:06:36,720 - Trying alternative upload method...
+2025-04-17 01:06:36,720 - Successfully added using alternative method
+2025-04-17 01:06:36,720 - Verified file in MFS: /patents/US12193671.json
+2025-04-17 01:06:36,720 - File details: {'Hash': 'Qmc5891sBr2sDiHzB1mHFqKVNxEewpwJuaou1KpcxzBFnv', 'Size': 2063185, 'CumulativeSize': 2063689, 'Blocks': 8, 'Type': 'file'}
+2025-04-17 01:06:36,720 - 
+2025-04-17 01:06:36,720 - === IPFS File Access Information ===
+2025-04-17 01:06:36,720 - File successfully uploaded to IPFS with hash: Qmc5891sBr2sDiHzB1mHFqKVNxEewpwJuaou1KpcxzBFnv
+2025-04-17 01:06:36,720 - 
+2025-04-17 01:06:36,720 - You can access your file through any of these methods:
+2025-04-17 01:06:36,720 - 1. Local Gateway: http://127.0.0.1:8080/ipfs/Qmc5891sBr2sDiHzB1mHFqKVNxEewpwJuaou1KpcxzBFnv
+2025-04-17 01:06:36,720 - 2. Direct Gateway: http://localhost:8080/ipfs/Qmc5891sBr2sDiHzB1mHFqKVNxEewpwJuaou1KpcxzBFnv
+2025-04-17 01:06:36,720 - 3. Command Line: ipfs cat /ipfs/Qmc5891sBr2sDiHzB1mHFqKVNxEewpwJuaou1KpcxzBFnv
+2025-04-17 01:06:36,720 - 4. WebUI: Files/patents/US12193671.json
+2025-04-17 01:06:36,720 - File is visible in WebUI
+2025-04-17 01:06:36,720 - 
+2025-04-17 01:06:37,460 - Batches:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-04-17 01:06:37,460 - Batches: 100%|##########| 1/1 [00:00<00:00,  1.35it/s]
+2025-04-17 01:06:37,460 - Batches: 100%|##########| 1/1 [00:00<00:00,  1.35it/s]
+2025-04-17 01:06:37,460 - 2025-04-17 01:06:37,460 - INFO - Generated embedding
+2025-04-17 01:06:37,460 - 2025-04-17 01:06:37,460 - INFO - Storing data in ChromaDB collection: patents_collection
+2025-04-17 01:06:37,611 - 2025-04-17 01:06:37,611 - INFO - Added document with ID 4db6c1cb-4ce5-4036-af2d-f8680d383912 to ChromaDB.
+2025-04-17 01:06:37,611 - 2025-04-17 01:06:37,611 - INFO - Successfully stored in ChromaDB with ID: 4db6c1cb-4ce5-4036-af2d-f8680d383912
+2025-04-17 01:06:37,611 - 2025-04-17 01:06:37,611 - INFO - Uploading patent US12177097 to IPFS...
+2025-04-17 01:06:37,744 - 2025-04-17 01:06:37,744 - INFO - Successfully verified IPFS hash: QmdPs3z13833Z5nC3je7x6RBsbDHK7XTsVQQejSPtG9mio
+2025-04-17 01:06:37,747 - 2025-04-17 01:06:37,747 - INFO - Successfully processed patent US12177097
+2025-04-17 01:06:37,747 - 2025-04-17 01:06:37,747 - INFO - IPFS Hash: QmdPs3z13833Z5nC3je7x6RBsbDHK7XTsVQQejSPtG9mio
+2025-04-17 01:06:37,747 - 2025-04-17 01:06:37,747 - INFO - Local JSON file saved in: patent_json/US12177097.json
+2025-04-17 01:06:39,749 - 2025-04-17 01:06:39,748 - INFO -
+2025-04-17 01:06:39,749 - Processing URL: https://patents.google.com/patent/US12192078
+2025-04-17 01:06:39,749 - 2025-04-17 01:06:39,748 - INFO - Processing patent number: US12192078
+2025-04-17 01:06:49,770 - 2025-04-17 01:06:49,770 - INFO - Saved JSON file locally: patent_json/US12192078.json
+2025-04-17 01:06:49,774 - 2025-04-17 01:06:49,774 - INFO - Generating embeddings using model: all-MiniLM-L6-v2
+2025-04-17 01:06:49,825 - Trying alternative upload method...
+2025-04-17 01:06:49,825 - Successfully added using alternative method
+2025-04-17 01:06:49,825 - Verified file in MFS: /patents/US12177097.json
+2025-04-17 01:06:49,825 - File details: {'Hash': 'QmdPs3z13833Z5nC3je7x6RBsbDHK7XTsVQQejSPtG9mio', 'Size': 773681, 'CumulativeSize': 773875, 'Blocks': 3, 'Type': 'file'}
+2025-04-17 01:06:49,825 - 
+2025-04-17 01:06:49,825 - === IPFS File Access Information ===
+2025-04-17 01:06:49,825 - File successfully uploaded to IPFS with hash: QmdPs3z13833Z5nC3je7x6RBsbDHK7XTsVQQejSPtG9mio
+2025-04-17 01:06:49,825 - 
+2025-04-17 01:06:49,825 - You can access your file through any of these methods:
+2025-04-17 01:06:49,825 - 1. Local Gateway: http://127.0.0.1:8080/ipfs/QmdPs3z13833Z5nC3je7x6RBsbDHK7XTsVQQejSPtG9mio
+2025-04-17 01:06:49,825 - 2. Direct Gateway: http://localhost:8080/ipfs/QmdPs3z13833Z5nC3je7x6RBsbDHK7XTsVQQejSPtG9mio
+2025-04-17 01:06:49,825 - 3. Command Line: ipfs cat /ipfs/QmdPs3z13833Z5nC3je7x6RBsbDHK7XTsVQQejSPtG9mio
+2025-04-17 01:06:49,825 - 4. WebUI: Files/patents/US12177097.json
+2025-04-17 01:06:49,825 - File is visible in WebUI
+2025-04-17 01:06:49,825 - 
+2025-04-17 01:06:50,603 - Batches:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-04-17 01:06:50,603 - Batches: 100%|##########| 1/1 [00:00<00:00,  1.29it/s]
+2025-04-17 01:06:50,603 - Batches: 100%|##########| 1/1 [00:00<00:00,  1.29it/s]
+2025-04-17 01:06:50,603 - 2025-04-17 01:06:50,603 - INFO - Generated embedding
+2025-04-17 01:06:50,603 - 2025-04-17 01:06:50,603 - INFO - Storing data in ChromaDB collection: patents_collection
+2025-04-17 01:06:50,790 - 2025-04-17 01:06:50,790 - INFO - Added document with ID d3b879e7-9d32-47de-8df5-07d2837b340b to ChromaDB.
+2025-04-17 01:06:50,790 - 2025-04-17 01:06:50,790 - INFO - Successfully stored in ChromaDB with ID: d3b879e7-9d32-47de-8df5-07d2837b340b
+2025-04-17 01:06:50,790 - 2025-04-17 01:06:50,790 - INFO - Uploading patent US12192078 to IPFS...
+2025-04-17 01:06:50,964 - 2025-04-17 01:06:50,964 - INFO - Successfully verified IPFS hash: Qmd9i1NQ5PCHw3sYjpgjUeNM13runGRo8Goyvbm4cBGXgR
+2025-04-17 01:06:50,967 - 2025-04-17 01:06:50,967 - INFO - Successfully processed patent US12192078
+2025-04-17 01:06:50,967 - 2025-04-17 01:06:50,967 - INFO - IPFS Hash: Qmd9i1NQ5PCHw3sYjpgjUeNM13runGRo8Goyvbm4cBGXgR
+2025-04-17 01:06:50,967 - 2025-04-17 01:06:50,967 - INFO - Local JSON file saved in: patent_json/US12192078.json
+2025-04-17 01:06:52,968 - 2025-04-17 01:06:52,968 - INFO -
+2025-04-17 01:06:52,968 - Processing URL: https://patents.google.com/patent/US12224921
+2025-04-17 01:06:52,968 - 2025-04-17 01:06:52,968 - INFO - Processing patent number: US12224921
+2025-04-17 01:07:03,117 - 2025-04-17 01:07:03,117 - INFO - Saved JSON file locally: patent_json/US12224921.json
+2025-04-17 01:07:03,117 - 2025-04-17 01:07:03,117 - INFO - Generating embeddings using model: all-MiniLM-L6-v2
+2025-04-17 01:07:03,178 - Trying alternative upload method...
+2025-04-17 01:07:03,178 - Successfully added using alternative method
+2025-04-17 01:07:03,178 - Verified file in MFS: /patents/US12192078.json
+2025-04-17 01:07:03,179 - File details: {'Hash': 'Qmd9i1NQ5PCHw3sYjpgjUeNM13runGRo8Goyvbm4cBGXgR', 'Size': 807509, 'CumulativeSize': 807765, 'Blocks': 4, 'Type': 'file'}
+2025-04-17 01:07:03,179 - 
+2025-04-17 01:07:03,179 - === IPFS File Access Information ===
+2025-04-17 01:07:03,180 - File successfully uploaded to IPFS with hash: Qmd9i1NQ5PCHw3sYjpgjUeNM13runGRo8Goyvbm4cBGXgR
+2025-04-17 01:07:03,180 - 
+2025-04-17 01:07:03,180 - You can access your file through any of these methods:
+2025-04-17 01:07:03,180 - 1. Local Gateway: http://127.0.0.1:8080/ipfs/Qmd9i1NQ5PCHw3sYjpgjUeNM13runGRo8Goyvbm4cBGXgR
+2025-04-17 01:07:03,181 - 2. Direct Gateway: http://localhost:8080/ipfs/Qmd9i1NQ5PCHw3sYjpgjUeNM13runGRo8Goyvbm4cBGXgR
+2025-04-17 01:07:03,181 - 3. Command Line: ipfs cat /ipfs/Qmd9i1NQ5PCHw3sYjpgjUeNM13runGRo8Goyvbm4cBGXgR
+2025-04-17 01:07:03,181 - 4. WebUI: Files/patents/US12192078.json
+2025-04-17 01:07:03,181 - File is visible in WebUI
+2025-04-17 01:07:03,181 - 
+2025-04-17 01:07:03,941 - Batches:   0%|          | 0/1 [00:00<?, ?it/s]
+2025-04-17 01:07:03,941 - Batches: 100%|##########| 1/1 [00:00<00:00,  1.30it/s]
+2025-04-17 01:07:03,941 - Batches: 100%|##########| 1/1 [00:00<00:00,  1.30it/s]
+2025-04-17 01:07:03,941 - 2025-04-17 01:07:03,941 - INFO - Generated embedding
+2025-04-17 01:07:03,941 - 2025-04-17 01:07:03,941 - INFO - Storing data in ChromaDB collection: patents_collection
+2025-04-17 01:07:04,137 - 2025-04-17 01:07:04,137 - INFO - Added document with ID fd587685-49d9-49d8-a6e1-d1b33348b627 to ChromaDB.
+2025-04-17 01:07:04,137 - 2025-04-17 01:07:04,137 - INFO - Successfully stored in ChromaDB with ID: fd587685-49d9-49d8-a6e1-d1b33348b627
+2025-04-17 01:07:04,137 - 2025-04-17 01:07:04,137 - INFO - Uploading patent US12224921 to IPFS...
+2025-04-17 01:07:04,262 - 2025-04-17 01:07:04,262 - INFO - Successfully verified IPFS hash: QmdWcxjek4BbEd6oNvtciy1JGZeECkXuQfMvCf8MM2uwsv
+2025-04-17 01:07:04,265 - 2025-04-17 01:07:04,264 - INFO - Successfully processed patent US12224921
+2025-04-17 01:07:04,265 - 2025-04-17 01:07:04,264 - INFO - IPFS Hash: QmdWcxjek4BbEd6oNvtciy1JGZeECkXuQfMvCf8MM2uwsv
+2025-04-17 01:07:04,265 - 2025-04-17 01:07:04,265 - INFO - Local JSON file saved in: patent_json/US12224921.json

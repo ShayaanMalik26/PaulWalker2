@@ -1,0 +1,105 @@
+2025-04-17 01:00:51,504 - INFO - Use pytorch device_name: cuda
+2025-04-17 01:00:51,504 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-17 01:01:00,874 - ERROR - Error initializing MFS directory: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /api/v0/files/mkdir?arg=%2Fpatents&parents=true (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001BF329C63D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-17 01:01:00,897 - INFO - Found 11 patent URLs to process from patent_urls.txt
+2025-04-17 01:01:00,897 - INFO - 
+Processing URL: https://patents.google.com/patent/US11890029
+2025-04-17 01:02:34,316 - INFO - Use pytorch device_name: cuda
+2025-04-17 01:02:34,316 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-17 01:02:40,254 - ERROR - Error initializing MFS directory: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /api/v0/files/mkdir?arg=%2Fpatents&parents=true (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015A00252310>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-17 01:02:40,254 - INFO - Found 11 patent URLs to process from patent_urls.txt
+2025-04-17 01:02:40,254 - INFO - 
+Processing URL: https://patents.google.com/patent/US11890029
+2025-04-17 01:02:40,254 - INFO - Processing patent number: US11890029
+2025-04-17 01:04:07,502 - INFO - Saved JSON file locally: patent_json/US11890029.json
+2025-04-17 01:04:07,525 - INFO - Generating embeddings using model: all-MiniLM-L6-v2
+2025-04-17 01:04:11,181 - INFO - Generated embedding
+2025-04-17 01:04:11,196 - INFO - Storing data in ChromaDB collection: patents_collection
+2025-04-17 01:04:11,219 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-04-17 01:04:11,884 - INFO - Added document with ID 905fc08b-71d6-40b2-9337-39f01f9d7990 to ChromaDB.
+2025-04-17 01:04:11,884 - INFO - Successfully stored in ChromaDB with ID: 905fc08b-71d6-40b2-9337-39f01f9d7990
+2025-04-17 01:04:11,884 - INFO - Uploading patent US11890029 to IPFS...
+2025-04-17 01:04:13,930 - ERROR - Error in save_and_upload: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /api/v0/add (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015A263D9610>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-17 01:04:13,930 - INFO - Failed to upload patent US11890029 to IPFS
+2025-04-17 01:04:15,931 - INFO - 
+Processing URL: https://patents.google.com/patent/US11986009
+2025-04-17 01:04:15,931 - INFO - Processing patent number: US11986009
+2025-04-17 01:04:22,705 - INFO - Saved JSON file locally: patent_json/US11986009.json
+2025-04-17 01:04:22,721 - INFO - Generating embeddings using model: all-MiniLM-L6-v2
+2025-04-17 01:04:23,436 - INFO - Generated embedding
+2025-04-17 01:04:23,437 - INFO - Storing data in ChromaDB collection: patents_collection
+2025-04-17 01:04:23,579 - INFO - Added document with ID a116717a-e7ec-4376-afbb-b53dd589815d to ChromaDB.
+2025-04-17 01:04:23,579 - INFO - Successfully stored in ChromaDB with ID: a116717a-e7ec-4376-afbb-b53dd589815d
+2025-04-17 01:04:23,579 - INFO - Uploading patent US11986009 to IPFS...
+2025-04-17 01:04:25,618 - ERROR - Error in save_and_upload: HTTPConnectionPool(host='127.0.0.1', port=5001): Max retries exceeded with url: /api/v0/add (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015A0742D010>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-04-17 01:04:25,618 - INFO - Failed to upload patent US11986009 to IPFS
+2025-04-17 01:04:27,619 - INFO - 
+Processing URL: https://patents.google.com/patent/US12146853
+2025-04-17 01:04:27,620 - INFO - Processing patent number: US12146853
+2025-04-17 01:04:46,015 - INFO - Saved JSON file locally: patent_json/US12146853.json
+2025-04-17 01:04:46,021 - INFO - Generating embeddings using model: all-MiniLM-L6-v2
+2025-04-17 01:04:47,729 - INFO - Generated embedding
+2025-04-17 01:04:47,730 - INFO - Storing data in ChromaDB collection: patents_collection
+2025-04-17 01:04:48,148 - INFO - Added document with ID e8584c32-6bef-4e5d-88e9-cd217ab7bdf0 to ChromaDB.
+2025-04-17 01:04:48,148 - INFO - Successfully stored in ChromaDB with ID: e8584c32-6bef-4e5d-88e9-cd217ab7bdf0
+2025-04-17 01:04:48,148 - INFO - Uploading patent US12146853 to IPFS...
+2025-04-17 01:04:48,322 - INFO - Successfully verified IPFS hash: QmVffomyFVHTuD5a9ntAVzNVSKHZWX3PJUuYcVKBJMyWV9
+2025-04-17 01:04:48,326 - INFO - Successfully processed patent US12146853
+2025-04-17 01:04:48,326 - INFO - IPFS Hash: QmVffomyFVHTuD5a9ntAVzNVSKHZWX3PJUuYcVKBJMyWV9
+2025-04-17 01:04:48,326 - INFO - Local JSON file saved in: patent_json/US12146853.json
+2025-04-17 01:04:50,327 - INFO - 
+Processing URL: https://patents.google.com/patent/US12193671
+2025-04-17 01:04:50,327 - INFO - Processing patent number: US12193671
+2025-04-17 01:06:21,511 - INFO - Saved JSON file locally: patent_json/US12193671.json
+2025-04-17 01:06:21,533 - INFO - Generating embeddings using model: all-MiniLM-L6-v2
+2025-04-17 01:06:23,805 - INFO - Generated embedding
+2025-04-17 01:06:23,821 - INFO - Storing data in ChromaDB collection: patents_collection
+2025-04-17 01:06:24,161 - INFO - Added document with ID 0a865aa6-d995-46b6-9b53-e3dbdd5bb6bc to ChromaDB.
+2025-04-17 01:06:24,161 - INFO - Successfully stored in ChromaDB with ID: 0a865aa6-d995-46b6-9b53-e3dbdd5bb6bc
+2025-04-17 01:06:24,161 - INFO - Uploading patent US12193671 to IPFS...
+2025-04-17 01:06:24,357 - INFO - Successfully verified IPFS hash: Qmc5891sBr2sDiHzB1mHFqKVNxEewpwJuaou1KpcxzBFnv
+2025-04-17 01:06:24,361 - INFO - Successfully processed patent US12193671
+2025-04-17 01:06:24,361 - INFO - IPFS Hash: Qmc5891sBr2sDiHzB1mHFqKVNxEewpwJuaou1KpcxzBFnv
+2025-04-17 01:06:24,361 - INFO - Local JSON file saved in: patent_json/US12193671.json
+2025-04-17 01:06:26,362 - INFO - 
+Processing URL: https://patents.google.com/patent/US12177097
+2025-04-17 01:06:26,362 - INFO - Processing patent number: US12177097
+2025-04-17 01:06:36,682 - INFO - Saved JSON file locally: patent_json/US12177097.json
+2025-04-17 01:06:36,682 - INFO - Generating embeddings using model: all-MiniLM-L6-v2
+2025-04-17 01:06:37,460 - INFO - Generated embedding
+2025-04-17 01:06:37,460 - INFO - Storing data in ChromaDB collection: patents_collection
+2025-04-17 01:06:37,611 - INFO - Added document with ID 4db6c1cb-4ce5-4036-af2d-f8680d383912 to ChromaDB.
+2025-04-17 01:06:37,611 - INFO - Successfully stored in ChromaDB with ID: 4db6c1cb-4ce5-4036-af2d-f8680d383912
+2025-04-17 01:06:37,611 - INFO - Uploading patent US12177097 to IPFS...
+2025-04-17 01:06:37,744 - INFO - Successfully verified IPFS hash: QmdPs3z13833Z5nC3je7x6RBsbDHK7XTsVQQejSPtG9mio
+2025-04-17 01:06:37,747 - INFO - Successfully processed patent US12177097
+2025-04-17 01:06:37,747 - INFO - IPFS Hash: QmdPs3z13833Z5nC3je7x6RBsbDHK7XTsVQQejSPtG9mio
+2025-04-17 01:06:37,747 - INFO - Local JSON file saved in: patent_json/US12177097.json
+2025-04-17 01:06:39,748 - INFO - 
+Processing URL: https://patents.google.com/patent/US12192078
+2025-04-17 01:06:39,748 - INFO - Processing patent number: US12192078
+2025-04-17 01:06:49,770 - INFO - Saved JSON file locally: patent_json/US12192078.json
+2025-04-17 01:06:49,774 - INFO - Generating embeddings using model: all-MiniLM-L6-v2
+2025-04-17 01:06:50,603 - INFO - Generated embedding
+2025-04-17 01:06:50,603 - INFO - Storing data in ChromaDB collection: patents_collection
+2025-04-17 01:06:50,790 - INFO - Added document with ID d3b879e7-9d32-47de-8df5-07d2837b340b to ChromaDB.
+2025-04-17 01:06:50,790 - INFO - Successfully stored in ChromaDB with ID: d3b879e7-9d32-47de-8df5-07d2837b340b
+2025-04-17 01:06:50,790 - INFO - Uploading patent US12192078 to IPFS...
+2025-04-17 01:06:50,964 - INFO - Successfully verified IPFS hash: Qmd9i1NQ5PCHw3sYjpgjUeNM13runGRo8Goyvbm4cBGXgR
+2025-04-17 01:06:50,967 - INFO - Successfully processed patent US12192078
+2025-04-17 01:06:50,967 - INFO - IPFS Hash: Qmd9i1NQ5PCHw3sYjpgjUeNM13runGRo8Goyvbm4cBGXgR
+2025-04-17 01:06:50,967 - INFO - Local JSON file saved in: patent_json/US12192078.json
+2025-04-17 01:06:52,968 - INFO - 
+Processing URL: https://patents.google.com/patent/US12224921
+2025-04-17 01:06:52,968 - INFO - Processing patent number: US12224921
+2025-04-17 01:07:03,117 - INFO - Saved JSON file locally: patent_json/US12224921.json
+2025-04-17 01:07:03,117 - INFO - Generating embeddings using model: all-MiniLM-L6-v2
+2025-04-17 01:07:03,941 - INFO - Generated embedding
+2025-04-17 01:07:03,941 - INFO - Storing data in ChromaDB collection: patents_collection
+2025-04-17 01:07:04,137 - INFO - Added document with ID fd587685-49d9-49d8-a6e1-d1b33348b627 to ChromaDB.
+2025-04-17 01:07:04,137 - INFO - Successfully stored in ChromaDB with ID: fd587685-49d9-49d8-a6e1-d1b33348b627
+2025-04-17 01:07:04,137 - INFO - Uploading patent US12224921 to IPFS...
+2025-04-17 01:07:04,262 - INFO - Successfully verified IPFS hash: QmdWcxjek4BbEd6oNvtciy1JGZeECkXuQfMvCf8MM2uwsv
+2025-04-17 01:07:04,264 - INFO - Successfully processed patent US12224921
+2025-04-17 01:07:04,264 - INFO - IPFS Hash: QmdWcxjek4BbEd6oNvtciy1JGZeECkXuQfMvCf8MM2uwsv
+2025-04-17 01:07:04,265 - INFO - Local JSON file saved in: patent_json/US12224921.json

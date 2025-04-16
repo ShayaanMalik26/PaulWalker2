@@ -1,0 +1,26 @@
+2025-04-17 01:00:05,101 - INFO - Starting patent link collection process
+2025-04-17 01:00:05,101 - INFO - Scraping patents from 2025-04-02 to 2025-04-12
+2025-04-17 01:00:05,101 - INFO - Initializing Chrome driver
+2025-04-17 01:00:05,101 - INFO - ====== WebDriver manager ======
+2025-04-17 01:00:05,866 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 01:00:06,033 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 01:00:06,200 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-17 01:00:07,110 - INFO - Found 23510 existing patents in patent_urls.txt
+2025-04-17 01:00:07,110 - INFO - Fetching page 1
+2025-04-17 01:00:25,663 - INFO - No more results found after page 1
+2025-04-17 01:00:28,749 - INFO - Scraping completed or interrupted.
+2025-04-17 01:00:28,749 - INFO - Total new patents found: 0
+2025-04-17 01:00:28,749 - INFO - Total unique patents in patent_urls.txt: 23510
+2025-04-17 01:01:55,356 - INFO - Starting patent link collection process
+2025-04-17 01:01:55,356 - INFO - Scraping patents from 2025-04-02 to 2025-04-12
+2025-04-17 01:01:55,356 - INFO - Initializing Chrome driver
+2025-04-17 01:01:55,357 - INFO - ====== WebDriver manager ======
+2025-04-17 01:01:56,371 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 01:01:56,501 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-17 01:01:56,642 - INFO - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\135.0.7049.95\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-17 01:01:57,579 - INFO - Found 23510 existing patents in patent_urls.txt
+2025-04-17 01:01:57,579 - INFO - Fetching page 1
+2025-04-17 01:02:15,942 - INFO - No more results found after page 1
+2025-04-17 01:02:19,017 - INFO - Scraping completed or interrupted.
+2025-04-17 01:02:19,017 - INFO - Total new patents found: 0
+2025-04-17 01:02:19,017 - INFO - Total unique patents in patent_urls.txt: 23510
